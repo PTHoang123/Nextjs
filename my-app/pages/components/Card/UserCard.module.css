@@ -1,0 +1,54 @@
+.userCard {
+    width: 261.07px;
+    height: 383.52px;
+    filter: blur(30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.avatar {
+    width: 143px;
+    height: 143px;
+    background-color: #EBEBEB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.username {
+    margin-top: 10px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    max-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+    margin-left: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add some space between icons if needed */
+}
+
+.btn {
+    width: 145px;
+    height: 49px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    margin-left: 20px;
+}

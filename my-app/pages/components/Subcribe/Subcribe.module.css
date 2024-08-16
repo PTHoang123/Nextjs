@@ -1,0 +1,37 @@
+.subcribe{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text{
+    font-size: 14px;
+    text-wrap: nowrap;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.form{
+    display: flex;
+    width: 380px;
+    height: 50px;
+}
+
+.input{
+    width: 380px;
+    height: 50px;
+    border: 1px solid #000000;
+    padding: 0;
+    margin: 0;
+}
+
+.btn{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 118px;
+    height: 48px;
+    font-size: 16px;
+    border: 1px solid #000000;
+}

@@ -1,0 +1,111 @@
+.container{
+    width: 1140px;
+    height: 514px;
+    background-color: #FFF;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* 
+.listImg{
+
+    justify-content: center;
+    align-items: center;
+} */
+.img{
+    width: 67px;
+    height: 62px;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box{
+    width: 538px;
+    height: 428px;
+    background-color: #EDEDED;    ;
+    margin-top: 16px;
+}
+
+.title{
+    width: 236px;
+    height: 65px;
+}
+
+.text{
+    /* display: flex; */
+    text-wrap: nowrap;
+    font-size: 14px;
+}
+
+
+.priceContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price, .discountedPrice {
+    margin: 0;
+}
+
+.discountBtn {
+    margin-left: 20px;
+    width: 64px;
+    height: 22px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.price {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+
+.track{
+    display: flex;
+}
+
+
+.btn{
+    padding: auto;
+    min-width: 145px;
+    height: 49px;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.listBtn{
+    display: flex;
+    gap: 20px;
+}
+
+.listFavourite{
+    width: 428px;
+
+}
+.favouritebtn{
+    min-width: 94px;
+    padding: auto;
+    border: none;
+    background-color: #E3E3E3;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 33px;
+}

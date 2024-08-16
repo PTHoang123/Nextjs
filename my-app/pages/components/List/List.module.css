@@ -1,0 +1,18 @@
+.list{
+    width: 121.93px;
+    max-height: 246px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+}
+
+
+.post{
+    font-size: 13px;
+}
+
+
+.title{
+    font-size: 20px;
+}

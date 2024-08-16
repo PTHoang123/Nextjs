@@ -1,0 +1,19 @@
+/* globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin: 0 auto; /* Center the body */
+  background-color: #F7F7F7;
+  font-family: 'Oswald', sans-serif; /* Apply Oswald font */
+
+}
+
+/* Apply box-sizing to all elements */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
